@@ -1,4 +1,5 @@
-import "dotenv/config.js"
+import "dotenv/config.js";
+import "./db/client.js";
 import express from "express";
 import usersRouter from "./routes/usersRouter.js";
 
